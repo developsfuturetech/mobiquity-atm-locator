@@ -19,7 +19,7 @@ Below are the Steps to run the application:
 On running the above command the application should be up and running successfully.
       
 To access the application using the curl commands:
-  Atm Locations List : curl -X  GET http://localhost:8090/atmLocations/ -u admin:admin -H 'Content-Type: application/json'
+  Atm Locations List : curl -X  GET http://localhost:8090/atmLocations/ -u admin:admin -H 'Content-Type: application/json' 
   Atm Locations by City : curl -X  GET http://localhost:8090/atmLocations/{city} -u admin:admin -H 'Content-Type: application/json' (replace {city} with some city name from the list ex: Amsterdam)
 
 Swagger Url : http://localhost:8090/swagger-ui/index.html
